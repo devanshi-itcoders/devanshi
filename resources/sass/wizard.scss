@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+}
+
+.navbar {
+    li.masterFilterYear {
+        margin: 8px 15px;
+    }
+}
+
+.card-menu {
+    .card-data {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .mt-15 {
+        margin-top: 15px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .custom-card {
+        width: 178px;
+        height: 100px;
+        background-color: rgb(230 230 230);
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform 0.5s ease-in-out;
+        margin-bottom: 10px;
+    }
+
+    .custom-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 2%;
+    }
+
+    p {
+        margin: 1px 0 10px;
+    }
+
+    @media only screen and (max-width: 400px) {
+        .custom-card {
+            width: 130px;
+        }
+    }
+}
+
+table {
+
+    i.fa.fa-sort,
+    i.fa.fa-sort-desc,
+    i.fa.fa-sort-asc,
+    i.fa.fa-sort-alpha,
+    i.fa.fa-sort-alpha-asc,
+    i.fa.fa-sort-alpha-desc {
+        color: #e8e6e6;
+    }
+
+    th.w-155 {
+        width: 155px;
+    }
+}
+
+.check-box {
+    .closeBtn {
+        color: #c0bbbb;
+    }
+
+}
+
+.search-box-panel {
+    .search-btn {
+        margin-top: 2.7rem;
+    }
+}
